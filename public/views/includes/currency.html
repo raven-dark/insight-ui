@@ -1,6 +1,6 @@
 <a class="dropdown-toggle" data-toggle="dropdown" href="#">
   <span ng-if="currency.symbol == 'USD'">USD</span>
-  <span ng-if="currency.symbol == 'RVN'">{{currency.realSymbol}}</span>
+  <span ng-if="currency.symbol == 'XRD'">{{currency.realSymbol}}</span>
   <span ng-if="currency.symbol == 'mRVN'">m{{currency.realSymbol}}</span>
   <span ng-if="currency.symbol == 'bits'">bits</span>
   <span class="caret"></span>
@@ -10,6 +10,6 @@
   <a data-ng-click="setCurrency('USD')" data-ng-class="{active: currency.symbol == 'USD'}">USD</a>
   </li>
   <li>
-  <a data-ng-click="setCurrency('RVN')" data-ng-class="{active: currency.symbol == 'RVN'}">{{currency.realSymbol}}</a>
+  <a data-ng-click="setCurrency('XRD')" data-ng-class="{active: currency.symbol == 'XRD'}">{{currency.realSymbol}}</a>
   </li>
 </ul>

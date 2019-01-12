@@ -630,8 +630,8 @@ msgid "The message is verifiably from {{verification.address}}."
 msgstr "El mensaje es verificable desde {{Verification. Address}}."
 
 #: public/views/dummy-translations.html
-msgid "The number of daily confirmed RVN transactions."
-msgstr "El número de transacciones RVN confirmadas diariamente."
+msgid "The number of daily confirmed XRD transactions."
+msgstr "El número de transacciones XRD confirmadas diariamente."
 
 #: public/views/dummy-translations.html
 msgid ""

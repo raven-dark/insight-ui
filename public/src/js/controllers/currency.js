@@ -48,7 +48,7 @@ angular.module('insight.currency').controller('CurrencyController',
 		
 		if (resSymbol === 'USD') {
 			return '$' + numeral(response).format('0,0.[00]') + ' ' + resSymbol;
-		} else if (resSymbol === 'RVN'){
+		} else if (resSymbol === 'XRD'){
 			return numeral(response).format('0,0.00000000') + ' ' + resSymbol;
 		} else {
 			return response + ' ' + resSymbol;
