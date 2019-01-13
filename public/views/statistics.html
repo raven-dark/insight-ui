@@ -91,19 +91,19 @@
 					<tbody>
 						<tr>
 							<td translate>Market Price:</td>
-							<td class="text-right">${{ SC.marketPrice }} {{ SC.marketCurrency }}<span ng-class="{ red: SC.percent < 0, green: SC.percent > 0 }">&nbsp;({{ SC.percent }}%)</span></td>
+							<!-- <td class="text-right">${{ SC.marketPrice }} {{ SC.marketCurrency }}<span ng-class="{ red: SC.percent < 0, green: SC.percent > 0 }">&nbsp;({{ SC.percent }}%)</span></td> -->
 						</tr>
 						<tr>
 							<td translate>Market Price (BTC):</td>
-							<td class="text-right">{{ SC.marketBtcPrice }} BTC&nbsp;<a href="https://www.binance.com/en/trade/pro/RVN_BTC" target="_blank" class="btn-copy" translate>Live</a></td>
+							<!-- <td class="text-right">{{ SC.marketBtcPrice }} BTC&nbsp;<a href="https://www.binance.com/en/trade/pro/RVN_BTC" target="_blank" class="btn-copy" translate>Live</a></td> -->
 						</tr>
 						<tr>
 							<td translate>Trade Volume:</td>
-							<td class="text-right">${{ SC.volume | numeraljs : '0,0.00'}} {{ SC.marketCurrency }}</td>
+							<!-- <td class="text-right">${{ SC.volume | numeraljs : '0,0.00'}} {{ SC.marketCurrency }}</td> -->
 						</tr>
 						<tr>
 							<td translate>Market Cap:</td>
-							<td class="text-right">${{ SC.marketCap | numeraljs : '0,0.00'}} {{ SC.marketCurrency }}</td>
+							<!-- <td class="text-right">${{ SC.marketCap | numeraljs : '0,0.00'}} {{ SC.marketCurrency }}</td> -->
 						</tr>
 					</tbody>
 				</table>
@@ -151,7 +151,7 @@
 					</tr>
 					<tr>
 						<td translate>Current Network Hashrate</td>
-						<td class="text-left">{{ SC.networkhashps / 1000000000000 | numeraljs : '0,0.000' }} TH/s</td>
+						<td class="text-left">{{ SC.networkhashps / 1000000000 | numeraljs : '0,0.000' }} GH/s</td>
 						<td class="text-right"><a href="stats/nethash/60" class="btn-copy" translate>View Chart</a></td>
 					</tr>
 				</tbody>
