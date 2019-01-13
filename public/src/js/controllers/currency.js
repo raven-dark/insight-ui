@@ -19,7 +19,7 @@ angular.module('insight.currency').controller('CurrencyController',
 
         if (this.symbol === 'USD') {
           resSymbol = 'USD';
-        } else if (this.symbol === 'mRVN') {
+        } else if (this.symbol === 'mXRD') {
           resSymbol = 'm' + this.realSymbol;
         } else if (this.symbol === 'bits') {
           resSymbol = 'bits';
@@ -32,8 +32,8 @@ angular.module('insight.currency').controller('CurrencyController',
         var response;
 
         if (this.symbol === 'USD') {
-          response = _roundFloat((value * this.factor), 2); 
-        } else if (this.symbol === 'mRVN') {
+          response = _roundFloat((value * this.factor), 2);
+        } else if (this.symbol === 'mXRD') {
           this.factor = 1000;
           response = _roundFloat((value * this.factor), 5);
         } else if (this.symbol === 'bits') {
@@ -45,7 +45,7 @@ angular.module('insight.currency').controller('CurrencyController',
         }
         // prevent sci notation
         if (response < 1e-7) response=response.toFixed(8);
-		
+
 		if (resSymbol === 'USD') {
 			return '$' + numeral(response).format('0,0.[00]') + ' ' + resSymbol;
 		} else if (resSymbol === 'XRD'){
@@ -67,7 +67,7 @@ angular.module('insight.currency').controller('CurrencyController',
           $rootScope.currency.factor = res.data.rate;
           $rootScope.currency.realSymbol = res.data.short;
         });
-      } else if (currency === 'mRVN') {
+      } else if (currency === 'mXRD') {
         $rootScope.currency.factor = 1000;
       } else if (currency === 'bits') {
         $rootScope.currency.factor = 1000000;

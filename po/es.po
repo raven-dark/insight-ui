@@ -100,8 +100,8 @@ msgid "Application Status"
 msgstr "Estado de la Aplicación"
 
 #: public/views/index.html
-msgid "are very much appreciated: RD7yadeCvSDs4fCbEPuHstU3GHbiS7ao9q"
-msgstr "se aprecian mucho: RD7yadeCvSDs4fCbEPuHstU3GHbiS7ao9q"
+msgid "are very much appreciated: (BTC) 1L1Qnk749D1zbRkWFTdoi3884zUqF2Ddnh"
+msgstr "se aprecian mucho: (BTC) 1L1Qnk749D1zbRkWFTdoi3884zUqF2Ddnh"
 
 #: public/views/rich_list.html
 msgid "Balance"
@@ -475,36 +475,36 @@ msgid "Rank"
 msgstr "Ordenar"
 
 #: public/views/charts.html
-msgid "Ravencoin Circulation"
-msgstr "Circulación de Ravencoin"
+msgid "Raven Dark Circulation"
+msgstr "Circulación de Raven Dark"
 
 #: public/views/messages_verify.html
-msgid "Ravencoin comes with a way of signing arbitrary messages."
-msgstr "Ravencoin viene con una manera de firmar mensajes arbitrarios."
+msgid "Raven Dark comes with a way of signing arbitrary messages."
+msgstr "Raven Dark viene con una manera de firmar mensajes arbitrarios."
 
 #: public/views/index.html
-msgid "Ravencoin Community"
-msgstr "Comunidad Ravencoin"
+msgid "Raven Dark Community"
+msgstr "Comunidad Raven Dark"
 
 #: public/views/rich_list.html
-msgid "Ravencoin Distribution"
-msgstr "Distribución de Ravencoin"
+msgid "Raven Dark Distribution"
+msgstr "Distribución de Raven Dark"
 
 #: public/views/statistics.html
-msgid "Ravencoin Mined:"
-msgstr "Ravencoin Minado:"
+msgid "Raven Dark Mined:"
+msgstr "Raven Dark Minado:"
 
 #: public/views/pools.html
-msgid "Ravencoin Pools"
-msgstr "Ravencoin Pools"
+msgid "Raven Dark Pools"
+msgstr "Raven Dark Pools"
 
 #: public/views/statistics.html
-msgid "Ravencoin Pools Stats"
-msgstr "Estadísticas de Ravencoin Pools"
+msgid "Raven Dark Pools Stats"
+msgstr "Estadísticas de Raven Dark Pools"
 
 #: public/views/statistics.html
-msgid "Ravencoin Statistics for the last 24 hours"
-msgstr "Estadísticas de Ravencoin durante las últimas 24 horas"
+msgid "Raven Dark Statistics for the last 24 hours"
+msgstr "Estadísticas de Raven Dark durante las últimas 24 horas"
 
 #: public/views/index.html
 msgid "Ravencore"
@@ -613,8 +613,8 @@ msgid "Synced Blocks"
 msgstr "Bloques Sincornizados"
 
 #: public/views/charts.html
-msgid "The current supply of Ravencoin on the network."
-msgstr "El suministro actual de Ravencoin en la red."
+msgid "The current supply of Raven Dark on the network."
+msgstr "El suministro actual de Raven Dark en la red."
 
 #: public/views/dummy-translations.html
 msgid "The daily average of fees paid to miners per transaction."
@@ -648,18 +648,18 @@ msgstr "No hay transacciones para esta dirección."
 #: public/views/transaction_sendraw.html
 msgid ""
 "This form can be used to broadcast a raw transaction in hex format over\n"
-"        the Ravencoin network."
+"        the Raven Dark network."
 msgstr ""
 "Este formulario se puede utilizar para emitir una transacción RAW en format\n"
-"        hexadecimal a través de la red Ravencoin."
+"        hexadecimal a través de la red Raven Dark."
 
 #: public/views/messages_verify.html
 msgid ""
 "This form can be used to verify that a message comes from\n"
-"        a specific Ravencoin address."
+"        a specific Raven Dark address."
 msgstr ""
 "Este formulario se puede utilizar para comprobar que un mensaje\n"
-"        proviene de una dirección Ravencoin específica."
+"        proviene de una dirección Raven Dark específica."
 
 #: public/views/statistics.html
 msgid "Time Between Blocks:"
@@ -791,16 +791,16 @@ msgstr "Esperando transacciones..."
 
 #~ msgid ""
 #~ "<strong>insight</strong>  is an <a href=\"http://live.insight.is/\" "
-#~ "target=\"_blank\">open-source Ravencoin blockchain explorer</a> with "
+#~ "target=\"_blank\">open-source Raven Dark blockchain explorer</a> with "
 #~ "complete REST and websocket APIs that can be used for writing web wallets "
 #~ "and other apps  that need more advanced blockchain queries than provided "
 #~ "by ravend RPC.  Check out the <a href=\"https://github.com/underdarkskies/"
 #~ "insight-ui\" target=\"_blank\">source code</a>."
 #~ msgstr ""
 #~ "<strong>insight</strong>  es un <a href=\"http://live.insight.is/\" "
-#~ "target=\"_blank\">explorador de bloques de Ravencoin open-source</a> con "
+#~ "target=\"_blank\">explorador de bloques de Raven Dark open-source</a> con "
 #~ "un completo conjunto de REST y APIs de websockets que pueden ser usadas "
-#~ "para escribir monederos de Ravencoins y otras aplicaciones que requieran "
+#~ "para escribir monederos de Raven Darks y otras aplicaciones que requieran "
 #~ "consultar un explorador de bloques.  Obtén el código en <a href=\"http://"
 #~ "github.com/underdarkskies/insight\" target=\"_blank\">el repositorio "
 #~ "abierto de Github</a>."

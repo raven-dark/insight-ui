@@ -1,6 +1,6 @@
 # Insight UI
 
-A Ravencoin blockchain explorer web application service for [Ravencore Node](https://github.com/underdarkskies/ravencore-node) using the [Insight API](https://github.com/underdarkskies/insight-api).
+A Raven Dark blockchain explorer web application service for [Ravencore Node](https://github.com/underdarkskies/ravencore-node) using the [Insight API](https://github.com/underdarkskies/insight-api).
 
 ## Quick Start
 

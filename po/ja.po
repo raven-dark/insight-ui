@@ -99,8 +99,8 @@ msgid "Application Status"
 msgstr "アプリケーションの状態"
 
 #: public/views/index.html
-msgid "are very much appreciated: RD7yadeCvSDs4fCbEPuHstU3GHbiS7ao9q"
-msgstr "非常に感謝しています：RD7yadeCvSDs4fCbEPuHstU3GHbiS7ao9q"
+msgid "are very much appreciated: (BTC) 1L1Qnk749D1zbRkWFTdoi3884zUqF2Ddnh"
+msgstr "非常に感謝しています：(BTC) 1L1Qnk749D1zbRkWFTdoi3884zUqF2Ddnh"
 
 #: public/views/rich_list.html
 msgid "Balance"
@@ -474,36 +474,36 @@ msgid "Rank"
 msgstr "序列"
 
 #: public/views/charts.html
-msgid "Ravencoin Circulation"
-msgstr "Ravencoin 流通"
+msgid "Raven Dark Circulation"
+msgstr "Raven Dark 流通"
 
 #: public/views/messages_verify.html
-msgid "Ravencoin comes with a way of signing arbitrary messages."
-msgstr "Ravencoinには任意のメッセージを署名する昨日が備わっています。"
+msgid "Raven Dark comes with a way of signing arbitrary messages."
+msgstr "Raven Darkには任意のメッセージを署名する昨日が備わっています。"
 
 #: public/views/index.html
-msgid "Ravencoin Community"
-msgstr "Ravencoinコミュニティ"
+msgid "Raven Dark Community"
+msgstr "Raven Darkコミュニティ"
 
 #: public/views/rich_list.html
-msgid "Ravencoin Distribution"
-msgstr "Ravencoin 分布"
+msgid "Raven Dark Distribution"
+msgstr "Raven Dark 分布"
 
 #: public/views/statistics.html
-msgid "Ravencoin Mined:"
-msgstr "Ravencoin 鉱山："
+msgid "Raven Dark Mined:"
+msgstr "Raven Dark 鉱山："
 
 #: public/views/pools.html
-msgid "Ravencoin Pools"
-msgstr "Ravencoinプール"
+msgid "Raven Dark Pools"
+msgstr "Raven Darkプール"
 
 #: public/views/statistics.html
-msgid "Ravencoin Pools Stats"
-msgstr "Ravencoinプール統計"
+msgid "Raven Dark Pools Stats"
+msgstr "Raven Darkプール統計"
 
 #: public/views/statistics.html
-msgid "Ravencoin Statistics for the last 24 hours"
-msgstr "Ravencoin 過去24時間の統計"
+msgid "Raven Dark Statistics for the last 24 hours"
+msgstr "Raven Dark 過去24時間の統計"
 
 #: public/views/index.html
 msgid "Ravencore"
@@ -611,8 +611,8 @@ msgid "Synced Blocks"
 msgstr "同期されたブロック数"
 
 #: public/views/charts.html
-msgid "The current supply of Ravencoin on the network."
-msgstr "ネットワーク上のRavencoinの現在の供給。"
+msgid "The current supply of Raven Dark on the network."
+msgstr "ネットワーク上のRaven Darkの現在の供給。"
 
 #: public/views/dummy-translations.html
 msgid "The daily average of fees paid to miners per transaction."
@@ -645,17 +645,17 @@ msgstr "このアドレスに対するトランザクションはありません
 #: public/views/transaction_sendraw.html
 msgid ""
 "This form can be used to broadcast a raw transaction in hex format over\n"
-"        the Ravencoin network."
+"        the Raven Dark network."
 msgstr ""
-"このフォームでは、16進数フォーマットの生のトランザクションをRavencoinネット"
+"このフォームでは、16進数フォーマットの生のトランザクションをRaven Darkネット"
 "ワーク上に配信することができます。"
 
 #: public/views/messages_verify.html
 msgid ""
 "This form can be used to verify that a message comes from\n"
-"        a specific Ravencoin address."
+"        a specific Raven Dark address."
 msgstr ""
-"このフォームでは、メッセージが特定のRavencoinアドレスから来たかどうかを検証す"
+"このフォームでは、メッセージが特定のRaven Darkアドレスから来たかどうかを検証す"
 "ることができます。"
 
 #: public/views/statistics.html
@@ -788,7 +788,7 @@ msgstr "トランザクションを待っています..."
 
 #~ msgid ""
 #~ "<strong>insight</strong>  is an <a href=\"http://live.insight.is/\" "
-#~ "target=\"_blank\">open-source Ravencoin blockchain explorer</a> with "
+#~ "target=\"_blank\">open-source Raven Dark blockchain explorer</a> with "
 #~ "complete REST and websocket APIs that can be used for writing web wallets "
 #~ "and other apps  that need more advanced blockchain queries than provided "
 #~ "by ravend RPC.  Check out the <a href=\"https://github.com/underdarkskies/"
@@ -830,7 +830,7 @@ msgstr "トランザクションを待っています..."
 #~ msgstr "テストネット"
 
 #~ msgid "Total Amount"
-#~ msgstr "Ravencoin総量"
+#~ msgstr "Raven Dark総量"
 
 #~ msgid "Transaction Output Set Information"
 #~ msgstr "トランザクションの出力セット情報"
