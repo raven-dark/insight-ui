@@ -86,7 +86,7 @@ function($scope, $routeParams, StatisticsByDaysTransactions, StatisticsByDaysOut
             if (response) {
 				self.marketPrice = response.price_usd;
 				self.marketBtcPrice = response.price_btc;
-				self.marketCap = response.market_cap_usd;
+				self.marketCap = response.price_usd * self.totalsupply;
 				self.volume = response["24h_volume_usd"];
 				self.percent = response.percent_change_24h;
             }
