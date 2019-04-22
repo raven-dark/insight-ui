@@ -82,25 +82,26 @@ function($scope, $routeParams, StatisticsByDaysTransactions, StatisticsByDaysOut
 		self.pools24hOptions = pools24hChart.chartOptions;
 		pools24hChart.load(Statistics24Hours, 'blocks_found', 'Pools');
 
-		    MarketsInfo.get({}, function(response) {
-            if (response) {
+    MarketsInfo.get({}, function(response) {
+	    if (response) {
 				self.marketPrice = response.price_usd;
 				self.marketBtcPrice = response.price_btc;
 				self.marketCap = response.price_usd * self.totalsupply;
 				self.volume = response["24h_volume_usd"];
 				self.percent = response.percent_change_24h;
-            }
-        });
+	    }
+    });
 		MiningInfo.get({}, function(response) {
 			if (response) {
 				self.difficulty = response.miningInfo.difficulty;
 				self.networkhashps = response.miningInfo.networkhashps;
-            }
-        });
+      }
+    });
 		StatisticsTotalSupply.get({}, function(response) {
 			if (response) {
 				self.totalsupply = response.supply;
-            }
-        });
+				self.marketCap = response.price_usd * self.totalsupply;
+      }
+    });
 	};
 });
