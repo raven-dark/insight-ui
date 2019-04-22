@@ -47,18 +47,14 @@ function($scope, $routeParams, StatisticsByDaysTransactions, StatisticsByDaysOut
 		self.networkhashps = 0;
 		self.totalsupply = 0;
 
-
 		var statisticChart = new StatisticChart(self.chartDays);
 		self.chartOptions = statisticChart.chartOptions;
-
 		self.daysButtons = statisticChart.daysButtons;
 
 
 	$scope.$on('chart-create', function (evt, chart) {
-
 		if (chart.chart.canvas.id === 'line') {
-
-            statisticChart.changeChartColor(chart);
+      statisticChart.changeChartColor(chart);
 			chart.update();
 		}
 	});
@@ -68,7 +64,6 @@ function($scope, $routeParams, StatisticsByDaysTransactions, StatisticsByDaysOut
 	};
 
 	self.get24HoursStats = function() {
-
 		Statistics24Hours.get(function(response) {
 
 			self.statsTotal24 = response;

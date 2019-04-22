@@ -103,7 +103,7 @@
 						</tr>
 						<tr>
 							<td translate>Market Cap:</td>
-							<td class="text-right">${{ SC.marketCap | numeraljs : '0,0.00'}} {{ SC.marketCurrency }}</td>
+							<td class="text-right">${{ (SC.marketPrice * SC.totalsupply) | numeraljs : '0,0.00'}} {{ SC.marketCurrency }}</td>
 						</tr>
 					</tbody>
 				</table>
